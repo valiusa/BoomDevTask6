@@ -16,7 +16,7 @@ function createArticles() {
 
         //document.getElementById("myArticle" + count).appendChild(txt1);
         document.getElementById("myArticle" + count).innerHTML = text + count;
-        document.getElementById("myArticle" + count).classList.add("message");
+        document.getElementById("myArticle" + count).classList.add(".message");
     }
 }
 
