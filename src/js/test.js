@@ -12,11 +12,11 @@ function createArticles() {
         document.body.appendChild(x);
 
         //var txt1 = document.createTextNode("some text...");
-        let text = "some text...";
+        let text = "some text..." + count;
 
         //document.getElementById("myArticle" + count).appendChild(txt1);
-        document.getElementById("myArticle" + count).innerHTML = text + count;
-        document.getElementById("myArticle" + count).classList.add(".message");
+        document.getElementById("myArticle" + count).innerHTML = text;
+        document.getElementById("myArticle" + count).classList.add("message");
     }
 }
 
